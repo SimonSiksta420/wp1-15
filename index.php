@@ -117,14 +117,6 @@ $parmazam = filter_input(INPUT_POST, 'parmazan');
 
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <input type="submit" name="submit" value="Objednat pizzu">
     </form>
 
