@@ -64,9 +64,9 @@ $parmazam = filter_input(INPUT_POST, 'parmazan');
         if (isset($slanina)) { ?>
             <p> se slaninou </p>
         <?php }
-        if (isset($parmazam)) { ?>
-            <p> s parmazánem </p>
-    
+        if (isset($parmazam)) {  ?>
+            <p> s parmazánem </p> }
+
     <form action="index.php" method="post">
         <h2>Typ těsta</h2>
         <input type="radio" name="paste" id="gluten-free" value="gluten-free">
