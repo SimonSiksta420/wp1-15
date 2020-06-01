@@ -27,7 +27,7 @@ $parmazam = filter_input(INPUT_POST, 'parmazan');
     <h1>Generátor pizzy</h1>
  
     <?php
-    if(isset($submit)) { ?>
+    if(isset($submit)) {} ?>
  
         <h2>Potvrzení objednávky</h2>
 
