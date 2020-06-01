@@ -34,7 +34,7 @@ $parmazam = filter_input(INPUT_POST, 'parmazan');
         <p>Děkujeme za vaši objednávku, kterou vám odvezeme co nejdříve.</p>
 
         <p>Objednal jste si pizzu s:</p>
-        
+
         <p><?= $paste ?> těsto</p>
         <?php 
         if(isset($cheese)) { ?>
@@ -123,6 +123,6 @@ $parmazam = filter_input(INPUT_POST, 'parmazan');
         <input type="submit" name="submit" value="Objednat pizzu">
     </form>
  
-    <?php } ?>
+    
 </body>
 </html>
