@@ -27,7 +27,7 @@ $parmazam = filter_input(INPUT_POST, 'parmazan');
     <h1>Generátor pizzy</h1>
  
     <?php
-    if(isset($submit)) {} ?>
+    if(isset($submit)) { ?>
  
         <h2>Potvrzení objednávky</h2>
 
@@ -65,7 +65,12 @@ $parmazam = filter_input(INPUT_POST, 'parmazan');
             <p> se slaninou </p>
         <?php }
         if (isset($parmazam)) {  ?>
-            <p> s parmazánem </p> }
+            <p> s parmazánem </p> 
+         <?php } 
+         
+         ?>
+
+        <?php } else { ?>
 
     <form action="index.php" method="post">
         <h2>Typ těsta</h2>
@@ -122,5 +127,7 @@ $parmazam = filter_input(INPUT_POST, 'parmazan');
         <br>
         <input type="submit" name="submit" value="Objednat pizzu">
     </form>
+
+        <?php } ?>
 </body>
 </html>
